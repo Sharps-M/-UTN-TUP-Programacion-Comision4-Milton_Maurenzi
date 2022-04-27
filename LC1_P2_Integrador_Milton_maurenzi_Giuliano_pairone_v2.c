@@ -11,7 +11,7 @@ int main()
     printf("[3]- Para Motos\n");
     scanf("%d",&veh);
 
-    if (veh>0 & veh<4)
+    if (veh>0 && veh<4)
     {
         switch (veh)
         {
@@ -20,7 +20,7 @@ int main()
             printf("[1] - Para Horas de ALTA  \n");
             printf("[2] - Para Horas de BAJA  \n");
             scanf ("%d",&hor);
-            if (hor>0 & hor<3)
+            if (hor>0 && hor<3)
             {
                 switch (hor)
                 {
@@ -48,7 +48,7 @@ int main()
             printf("[1] - Para Horas de ALTA\n");
             printf("[2] - Para Horas de BAJA\n");
             scanf ("%d",&hor);
-            if (hor>0 & hor<3)
+            if (hor>0 && hor<3)
             {
                 switch (hor)
                 {
@@ -66,7 +66,7 @@ int main()
             printf("[1] - Para Horas de ALTA\n");
             printf("[2] - Para Horas de BAJA\n");
             scanf ("%d",&hor);
-            if (hor>0 & hor<3)
+            if (hor>0 && hor<3)
             {
                 switch (hor)
                 {
@@ -80,6 +80,9 @@ int main()
             }
             break;
         }    
+    }else
+    {
+        printf("Debe ingresar un tipo de veh%cculo v%clido \n",161, 160);
     }
     system("Pause");
 }
