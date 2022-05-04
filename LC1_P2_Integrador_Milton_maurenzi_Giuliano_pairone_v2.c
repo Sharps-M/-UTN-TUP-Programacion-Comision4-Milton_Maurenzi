@@ -3,7 +3,7 @@
 
 int main()
 {
-    int veh, pas, hor,auth;
+    int veh, pas, hor, auth;
 
     printf("Ingrese alguna de las siguientes opcines:\n");
     printf("[1]- Para Autom%cviles\n",162);
@@ -73,9 +73,12 @@ int main()
                 case 1 :
                     printf("Debe abonar $150\n");
                     break;
+                
                 case 2 :            
                     printf("No debe abonar\n");
-                    break;                
+                    break;
+                default:
+                break;
                 }
             }
             break;

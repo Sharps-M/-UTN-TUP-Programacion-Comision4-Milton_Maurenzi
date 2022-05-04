@@ -32,9 +32,10 @@ void main (){
     printf("************************************************************\n");
     printf("Por favor ingrese su n%cmero de documento \n",163);
     scanf("%d", &doc);
-    printf("Ingrese el valor de la venta: \n");
-    scanf("%f", &vent);
-
+    //se Hardcodea el monto de la venta, se puede probar un monto habilitando las instrucciones de abajo
+    //printf("Ingrese el valor de la venta: \n");
+    //scanf("%f", &vent);
+    vent = 4600;
 
 
     if (doc>1000000 && (doc<99999999))

@@ -7,11 +7,11 @@ void main()
 {
     
     int i,acum;
-    acum=1;
+    acum=0;
     for(i=1; i<=20;i+=2)
     {
         acum=acum+i;
     }
-    printf("%d \n", acum);
-    
+    printf("\nLa suma de los primeros numeros impares es: %d \n \n",acum);
+    system("pause");
 }
