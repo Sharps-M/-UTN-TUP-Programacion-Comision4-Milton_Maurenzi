@@ -20,7 +20,7 @@ void main()
         if (i==10)
         {
             printf("La suma de los numeros ingresados es: %d", sum);
-        }if (num < 0)
+        }if (num <= 0)
         {
             printf("No se permiten valores menores a 0 \n");
         }/*if (num%2!>=0)

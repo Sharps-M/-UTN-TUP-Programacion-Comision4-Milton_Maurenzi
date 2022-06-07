@@ -12,7 +12,7 @@ int main(){
     printf("ingresar el valor del tercer numero a sumar \n");
     scanf ("%d", &num3);
     resultado = num1 + num2 + num3;
-    printf("El resultado de la suma es: %d\n ", resultado);
+    printf("El resultado de la suma es: %d \n", resultado);
     system("pause");
     return 0;
 }

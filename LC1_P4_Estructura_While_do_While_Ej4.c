@@ -13,6 +13,7 @@ void main()
 {
     int cant_alum, sum_not, cant_parc, i;
     float prom_alum,prom_gral;
+    i=0;
 
         printf("Ingrese la cantidad de alumnos con los que cuenta el curso: \n");
         scanf("%d", &cant_alum);
